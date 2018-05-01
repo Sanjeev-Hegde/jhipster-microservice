@@ -1,0 +1,51 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "gateway",
+      "t2p"
+    ],
+    "directoryPath": "./",
+    "serviceDiscoveryType": "eureka",
+    "monitoring": "no",
+    "jwtSecretKey": "7a069cebcc1597382bd6ad978d547b81131256ee",
+    "dockerRepositoryName": "microservicetest",
+    "dockerPushCommand": "docker push",
+    "openshiftNamespace": "raf",
+    "storageType": "persistent",
+    "registryReplicas": 2,
+    "promptValues": {
+      "packageName": "com.jhipster.server",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.14.3",
+    "baseName": "elegal",
+    "packageName": "com.jhipster.server",
+    "packageFolder": "com/jhipster/server",
+    "serverPort": "8082",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "hy"
+    ],
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
